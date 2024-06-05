@@ -176,7 +176,7 @@ def mostrar_banner():
 def main():
     mostrar_banner()
     
-    ip = input(Fore.GREEN + 'Introduce la IP a investigar (ej. 8.8.8.8): ' + Style.RESET_ALL)
+    ip = input(Fore.GREEN + 'Introduce la IP a investigar: ' + Style.RESET_ALL)
     dominio = input(Fore.GREEN + 'Introduce el dominio a investigar: ' + Style.RESET_ALL)
     github_username = input(Fore.GREEN + 'Introduce el nombre de usuario de GitHub: ' + Style.RESET_ALL)
 
